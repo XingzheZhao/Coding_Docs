@@ -5,7 +5,7 @@
 # print(f.read())
 # f.close()
 
-"""
+
 with open('test.txt', 'r') as f:
     # file_content = f.read()
     # file_content = f.readlines()  # ? list
@@ -31,7 +31,7 @@ with open('test2.txt', 'w') as f:
     f.write('testing123')
     f.seek(0)
     f.write('NewTest')
-"""
+
 
 with open('test.txt', 'r') as rf:
     with open('testcopy.txt', 'w') as wf:
