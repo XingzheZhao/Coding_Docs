@@ -48,6 +48,7 @@ class LinkedList:
             last_node = last_node.get_next()
         last_node.set_next(new_node)
 
+
     def push_node(self, n):
         n.set_next(self.root)
         self.root = n

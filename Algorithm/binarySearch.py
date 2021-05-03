@@ -27,5 +27,5 @@ def bs_recur(ls, left, right, x):
             
 
 my_list = [1,3,5,7,9,11,13,15]
-print(bs_iter(my_list, 88))
+print(bs_iter(my_list, 11))
 print(bs_recur(my_list, 0, len(my_list)-1, 11))
